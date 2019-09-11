@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pippi's Platters</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="testStyle.css">
+    
+</head>
+<body class="cursor">
+    
+    <div style="margin-bottom:0">
+  <img class="imgfluid" width="100%" src="BOOKNOW.jpg">
+</div>
+    
+    <nav class="navbar navbar-fixed-top navbar-expand-sm sticky-top bg-dark navbar-dark"><a class="navbar-brand" href="#"><img width="150px"src="logonav.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="platters.html">The Platters</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reviews.html">Reviews</a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="form.html">Order Now</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+   <br>
+    
+<div class="container-fluid">
+
+<form class="form-horizontal" action="index.html">
+<div class="form-group">
+<label for="usr"> Name: </label>
+<input type="text" class="form-control" id="usr" name="usr" placeholder="Please Enter Your Name" required>
+</div><hr>
+    
+<div class="form-group">
+<label for="email">Email: </label>
+<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+</div><hr>
+
+<div class="form-group"><label for="start">Select the date for platter:</label>
+<input type="date" class="form-control" id="start" name="trip-start"
+       value="2019-07-"
+       min="2019-01-01" max="2020-12-31"> </div><hr>   
+    
+<div class="form-check-inline">
+<label class="form-check-label" for="optradio">Platter choice:</label>
+    </div>
+    <div class="form-check-inline">
+<label class="form-check-label" id="optradio"> 
+<input class="form-check-input" type="radio" name="optradio">Vegan Platter $40 </label></div>
+<div class="form-check-inline">
+<label class="form-check-label" id="optradio"> 
+<input class="form-check-input" type="radio" name="optradio">Sweet Platter $50 </label></div>
+    <div class="form-check-inline">
+<label class="form-check-label" id="optradio"> 
+<input class="form-check-input" type="radio" name="optradio" required>Signature Savoury $70</label></div>
+<div class="form-check-inline">
+<label class="form-check-label" id="optradio"> 
+<input class="form-check-input" type="radio" name="optradio">The Works $100 </label></div>
+<hr>
+    
+    
+    <div class="form-group">
+<label for="region" required>Select your region:&nbsp;&nbsp;</label>
+<select name="region">
+  <option value="Auckland">Auckland</option>
+  <option value="Wellington">Wellington</option>
+  <option value="Bay of Islands">Bay of Islands</option>
+  <option value="Waikato">Waikato</option>
+    <option value="Northland">Northland</option>
+  <option value="Gisborne">Gisborne</option>
+  <option value="Manawatu-Wanganui">Manawatu-Wanganui</option>
+  <option value="Taranaki">Taranaki</option>
+    <option value="Tasman">Tasman</option>
+  <option value="Nelson">Nelson</option>
+  <option value="Hawke's Bay">Hawke's Bay</option>
+  <option value="Otago">Otago</option>
+    <option value="Southland">Southland</option>
+  <option value="Canterbury">Canterbury</option>
+  <option value="Marlborough">Marlborough</option>
+  <option value="West Coast">West Coast</option>
+    </select></div>
+    <hr>
+
+<div class="form-check-inline">
+<label class="form-check-label" for="ints">What extras would you like:&nbsp;&nbsp;&nbsp;</label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Delivery</span></label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Condiments</span></label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Flowers</span></label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Tablecloth</span></label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Cutlery</span></label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Napkins</span></label>
+<label class="form-check-label" id="ints">
+<input type="checkbox" class="form-check-input" value="" name="ints"> <span style="padding-left: 0em; padding-right: 1em;">Wine</span></label>
+</div><hr>
+    
+<div class="form-group">
+<label for="text">Any extra instructions:&nbsp;</label>
+<input type="text" class="form-control" id="text" name="text" placeholder="Include choice of cheese, dips, etc" maxlength="150">
+</div>
+    
+    
+    
+<div><button type="submit" class="btn"><a class="nav-link">Submit</a>
+<br><br></button>
+                </div>
+    </form>
+    
+    
+    </div>
+    
+    <div class="jumbotron text-center" style="margin-bottom:0">
+  <p>&copy; Pippi's Platters 2019</p>
+</div>
+
+</body>
+    
+</html>

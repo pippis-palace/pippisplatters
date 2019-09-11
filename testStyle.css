@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+}
+
+.cursor{
+    cursor: url("mouse.png") 15 15, auto;
+}
+
+.navbar{
+     box-shadow: 0 10px 5px -5px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    padding: 0px;
+}
+
+.picture{
+    background-image: url(strawberry.png);
+    
+}
+
+.navbar-nav li a{
+    color: white !important;
+}
+
+.navbar-nav li a:visited{
+    color: white !important;
+}
+
+.nav-link{
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: pink;
+  height: 0%;
+  width: 90%;
+  bottom: 0px;
+}
+
+.nav-link:hover::before {
+  height: 5px;
+}
+
+.imgSizer{
+    width: 95%;
+    padding-bottom: 20px;
+}
+
+h2{ 
+    border-bottom: 5px solid pink;  
+    padding-bottom: 10px;
+}
+.bigText{
+    color: grey;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Bahiana', cursive;
+}
+
+.container{
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 1.25em;
+}
+
+.bg-dark{
+    background-color: lightpink!important;
+}
+
+.jumbotron{
+    background-color: lightpink!important;
+    font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.container-fluid{
+    margin-left: 15px;
+    font-family: "Helvetica Neue";
+    font-weight:  lighter;
+    font-size: 1.25em;
+}
+
+@media screen and (min-width:576px){
+    
+    /*-------*/
+    .myCentreText{
+        font-size: 5em;
+    }
+    
+    .imageBox{
+        width:75%;
+        max-width: 700px;
+    }
+    
+    .formBox{
+        width:75%;
+        
+    }
+}
